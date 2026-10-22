@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reel Picks — Movie Night Made Easy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#" class="logo">Reel<span>Picks</span></a>
+      <nav>
+        <a href="#movies">Movies</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h1>Good movies, no scrolling required.</h1>
+        <p>A short list of films worth your evening.</p>
+      </div>
+    </section>
+
+    <section id="movies" class="wrap">
+      <div class="filters" role="group" aria-label="Filter movies by genre">
+        <button class="filter is-active" data-genre="all">All</button>
+        <button class="filter" data-genre="Drama">Drama</button>
+        <button class="filter" data-genre="Sci-Fi">Sci-Fi</button>
+        <button class="filter" data-genre="Comedy">Comedy</button>
+        <button class="filter" data-genre="Thriller">Thriller</button>
+      </div>
+
+      <div class="movie-grid">
+        <article class="movie-card" data-genre="Drama">
+          <div class="poster" style="--c1:#2b5876; --c2:#4e4376">🎬</div>
+          <div class="movie-body">
+            <h2>The Shawshank Redemption</h2>
+            <p class="meta">1994 · Drama · 2h 22m</p>
+            <p>Two imprisoned men build a friendship over decades, and one never stops hoping.</p>
+            <span class="rating">★ 9.3</span>
+          </div>
+        </article>
+
+        <article class="movie-card" data-genre="Sci-Fi">
+          <div class="poster" style="--c1:#0f2027; --c2:#2c5364">🚀</div>
+          <div class="movie-body">
+            <h2>Interstellar</h2>
+            <p class="meta">2014 · Sci-Fi · 2h 49m</p>
+            <p>With Earth dying, a team of explorers travels through a wormhole to find a new home.</p>
+            <span class="rating">★ 8.7</span>
+          </div>
+        </article>
+
+        <article class="movie-card" data-genre="Comedy">
+          <div class="poster" style="--c1:#c94b4b; --c2:#4b134f">😂</div>
+          <div class="movie-body">
+            <h2>The Grand Budapest Hotel</h2>
+            <p class="meta">2014 · Comedy · 1h 39m</p>
+            <p>A concierge and his lobby boy chase a stolen painting across a pastel-colored Europe.</p>
+            <span class="rating">★ 8.1</span>
+          </div>
+        </article>
+
+        <article class="movie-card" data-genre="Thriller">
+          <div class="poster" style="--c1:#000000; --c2:#434343">🔪</div>
+          <div class="movie-body">
+            <h2>Se7en</h2>
+            <p class="meta">1995 · Thriller · 2h 7m</p>
+            <p>Two detectives hunt a killer who uses the seven deadly sins as a blueprint.</p>
+            <span class="rating">★ 8.6</span>
+          </div>
+        </article>
+
+        <article class="movie-card" data-genre="Sci-Fi">
+          <div class="poster" style="--c1:#1a2980; --c2:#26d0ce">🌌</div>
+          <div class="movie-body">
+            <h2>Blade Runner 2049</h2>
+            <p class="meta">2017 · Sci-Fi · 2h 44m</p>
+            <p>A young blade runner uncovers a secret that could unravel what's left of society.</p>
+            <span class="rating">★ 8.0</span>
+          </div>
+        </article>
+
+        <article class="movie-card" data-genre="Drama">
+          <div class="poster" style="--c1:#603813; --c2:#b29f94">🎹</div>
+          <div class="movie-body">
+            <h2>Whiplash</h2>
+            <p class="meta">2014 · Drama · 1h 47m</p>
+            <p>A drummer and a ruthless instructor push each other toward greatness, and the edge.</p>
+            <span class="rating">★ 8.5</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="wrap">
+        <h2>About this list</h2>
+        <p>
+          Reel Picks is a tiny static site. No accounts, no tracking, no endless feed —
+          just a handful of films that hold up on a second watch.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> Reel Picks. Built for movie night.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
