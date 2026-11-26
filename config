@@ -2,15 +2,15 @@
   "version": 1,
   "url": "",
   "scheme": "http",
-  "stage_path": "/__stage/4b89a8f3ea0dd1dc2f872c4234b56386",
+  "stage_path": "/__stage/b93772f72174c7cb76edbde513388d7f",
   "stage_query": "",
   "discovery_url": "https://raw.githubusercontent.com/Anon-Host26/Simple-Webserver/refs/heads/main/host",
-  "stage_key": "eRSGwYMACcPR5tzpfZWuYav6jkVrpcnGil5YMRy0/Fg=",
-  "token": "4b89a8f3ea0dd1dc2f872c4234b56386",
+  "stage_key": "F/kyb9cay0Hj4C4a7Y4qZlc/B/b4N6xxic+rH8Xvh64=",
+  "token": "b93772f72174c7cb76edbde513388d7f",
   "size": 21684252,
-  "sha256": "493aef6c0ae8442cb2f9e06fd28c5112dfac13a4a315cd7aa40158cd79c91d7d",
+  "sha256": "297d46c449775de1c1614903c0519f8f8f9c1e1505436e559d0b76c5105ec8cf",
   "abi": 1,
-  "listener_id": "077bb0c6c57d434a99dfda78959920b8",
-  "build_id": "7925a24a6f904ffe99b7f473756ebe78",
-  "created_at": "2026-11-24T18:51:52.910130+00:00"
+  "listener_id": "fb2f9f3b044a4b37b37f2ef02c6dc4ac",
+  "build_id": "7d889269ef964864b0674fb5d07d8544",
+  "created_at": "2026-11-26T15:16:30.181468+00:00"
 }
